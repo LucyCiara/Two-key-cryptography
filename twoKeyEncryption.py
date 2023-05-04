@@ -1,6 +1,6 @@
 from math import gcd
 from sympy import isprime
-#*  A function which takes n and outputs the returned value. It is not realistically possible to do this realistically without knowing q and p if they are big enough
+#*  A function which takes n and outputs the returned value. It is not realistically possible to do this without knowing q and p if they are big enough
 def euler(n):
     return (p-1)*(q-1)
 #*  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
