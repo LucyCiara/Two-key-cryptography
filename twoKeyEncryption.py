@@ -32,7 +32,7 @@ e = 29
 
 if gcd(e, euler(n)) != 1:
     print(f"e and ϕ(n) are not coprimes. This will make the program non-functional")
-if 1 < e < euler(n) == False:
+if (1 < e < euler(n)) == False:
     print(f"1 < e < ϕ(n) is not the case. This will make the program non-functional")
 #!  ------------------------------------------------------
 
